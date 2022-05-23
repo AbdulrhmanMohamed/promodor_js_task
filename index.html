@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro</title>
+    <!-- added font style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="pomodoro">
+        <h1 class="pom_title">Pomodoro</h1>
+        <div class="timer">
+            <div class="work_timer">
+                <span class="work">Work Time</span>
+                <span class="work_hours">0</span>
+                <span>:</span>
+                <span class="work_minutes">00</span>
+                <span>:</span>
+                <span class="work_seconds">00</span>
+            </div>
+
+            <div class="break_timer">
+                <span class="break">break Time</span>
+                <span class="break_hours">0</span>
+                <span>:</span>
+                <span class="break_minutes">00</span>
+                <span>:</span>
+                <span class="break_seconds">00</span>
+            </div>
+        </div>
+
+        <div class="controllers">
+            <button class="btn  start_work">Start Work</button>
+            <button class="btn start_break">Start Break</button>
+            <button class="btn resume_work">Resume Work</button>
+            <button class="btn end_work"> End Work</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
